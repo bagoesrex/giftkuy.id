@@ -42,22 +42,24 @@ export default function Header() {
               FAQ
             </a>
           </nav> */}
-          <div className="flex flex-wrap items-center justify-center gap-2 sm:justify-end">
-            <a
-              href="#contoh"
-              className="rounded-full border-2 border-[#FF6B6B] px-4 py-2 text-sm font-semibold text-[#FF6B6B] transition hover:bg-[#FF6B6B]/10"
-            >
-              Lihat Contoh
-            </a>
-            <a
-              href={WA_HREF}
-              target="_blank"
-              rel="noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-[#FF6B6B] px-4 py-2 text-sm font-bold text-white transition hover:bg-[#e85d5d]"
-            >
-              <IconWhatsApp className="size-4" />
-              Chat WhatsApp
-            </a>
+          <div className="hidden sm:block">
+            <div className="flex flex-wrap items-center justify-center gap-2 sm:justify-end ">
+              <a
+                href="#contoh"
+                className="rounded-full border-2 border-[#FF6B6B] px-4 py-2 text-sm font-semibold text-[#FF6B6B] transition hover:bg-[#FF6B6B]/10"
+              >
+                Lihat Contoh
+              </a>
+              <a
+                href={WA_HREF}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-[#FF6B6B] px-4 py-2 text-sm font-bold text-white transition hover:bg-[#e85d5d]"
+              >
+                <IconWhatsApp className="size-4" />
+                Chat WhatsApp
+              </a>
+            </div>
           </div>
         </div>
       </div>
